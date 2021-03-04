@@ -10,8 +10,8 @@ imagesList.innerHTML = gallery.map(createImagesEl).join("")
 
 const openModalWindow = () => {
   event.preventDefault()
-  modalWindow.querySelector("img.lightbox__image").src = ""
-  modalWindow.querySelector("img.lightbox__image").alt = ""
+  modalWindow.querySelector("img.lightbox__image").removeAttribute("src")
+  modalWindow.querySelector("img.lightbox__image").removeAttribute("alt")
   modalWindow.classList.toggle("is-open")
   modalWindow.querySelector("img.lightbox__image").src = event.target.dataset.source
   modalWindow.querySelector("img.lightbox__image").alt = event.target.alt
@@ -58,6 +58,6 @@ const slideImagesInModalWindow = (event) => {
 
 imagesList.addEventListener("click", openModalWindow)
 modalWindow.addEventListener("click", closeModalWindow)
-document.addEventListener("keydown", closeModalWindow)
-document.addEventListener("keydown", slideImagesInModalWindow)
+window.addEventListener("keydown", closeModalWindow)
+window.addEventListener("keydown", slideImagesInModalWindow)
  
