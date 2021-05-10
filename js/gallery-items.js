@@ -62,4 +62,67 @@ export default [
       'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg',
     description: 'Lighthouse Coast Sea',
   },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2017/11/14/13/06/kitty-2948404__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2017/11/14/13/06/kitty-2948404_1280.jpg',
+    description: 'Domestic Cat',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2016/03/28/10/05/kitten-1285341__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2016/03/28/10/05/kitten-1285341_1280.jpg',
+    description: 'Cute Cat',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2016/09/05/21/37/cat-1647775__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2016/09/05/21/37/cat-1647775_1280.jpg',
+    description: 'Cat on tree',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg',
+    description: 'Sweet small cat',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg',
+    description: 'Cat sitting',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2016/06/14/00/14/cat-1455468__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2016/06/14/00/14/cat-1455468_1280.jpg',
+    description: 'Ginger cat',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2018/10/11/12/31/black-cat-3739702__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2018/10/11/12/31/black-cat-3739702_1280.jpg',
+    description: 'Black-cat',
+  },
+  {
+    preview:
+      'https://cdn.pixabay.com/photo/2017/07/25/01/22/cat-2536662__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2017/07/25/01/22/cat-2536662_1280.jpg',
+    description: 'Cat eat flower',
+  },
+    {
+    preview:
+      'https://cdn.pixabay.com/photo/2018/03/26/20/49/tiger-3264048__340.jpg',
+    original:
+      'https://cdn.pixabay.com/photo/2018/03/26/20/49/tiger-3264048_1280.jpg',
+    description: 'Cat eat flower',
+  },
 ];
